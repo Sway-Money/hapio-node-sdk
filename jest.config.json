@@ -1,0 +1,20 @@
+{
+  "resetMocks": true,
+  "restoreMocks": true,
+  "modulePaths": [
+    "<rootDir>/src"
+  ],
+  "testPathIgnorePatterns": [
+    "/node_modules/",
+    "/dist/"
+  ],
+  "transform": {
+    "^.+\\.ts?$": [
+      "ts-jest",
+      {
+        "isolatedModules": true
+      }
+    ]
+  },
+  "testEnvironment": "node"
+}
